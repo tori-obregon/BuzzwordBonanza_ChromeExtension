@@ -8,9 +8,9 @@ body {
     align-items: center;
     width: 300px;
     height: 500px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     background-image: url('Dictionary Page.jpeg');
-    background-size: contain;
+    background-size: 120%;
     background-repeat: no-repeat;
 }
 
@@ -29,7 +29,7 @@ button {
 }
 
 /* We will want to toggle the display property between flex and none to switch pages */
-.wordInputContainer {
+#wordInputContainer {
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -43,16 +43,14 @@ button {
 }
 
 
-.definitionPage {
+#definitionPage {
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 90%;   
+    height: 99%;   
+    overflow: scroll;
 }
 
-#definition {
-    margin-bottom: 25%;
-}
 
