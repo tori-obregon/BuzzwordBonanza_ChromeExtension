@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
   <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>Hello Extensions</h1>
+
+  <!-- initial page -->
+  <div class="wordInputContainer">
+    <img id ="logo" src="BBLogo.png" alt="logo">
+    <form>
+      <input id="wordInput" type="text" placeholder="Give us a word"/>
+      <button for="wordInput" id="search" type="button" value="Search">Search</button>
+    </form>
+  </div>
+
+  <!-- definition page -->
+  <div class="definitionPage">
+    <h1 id="word">Word</h1>
+    <p id="definition">Definition</p>
+    <button id="reset">Search Another Word</button>
+  </div>
+
   <script src="popup.js"></script>
 </body>
 </html>

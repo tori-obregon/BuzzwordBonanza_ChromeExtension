@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Buzzword Bonanza",
+  "description": "Define any word you'd like",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
